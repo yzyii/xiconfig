@@ -1,0 +1,9 @@
+<stylist>
+
+    <settings>
+        <noblinkself>false</noblinkself>
+        <noblinktarget>true</noblinktarget>
+        <noblinkothers>false</noblinkothers>
+    </settings>
+
+</stylist>
