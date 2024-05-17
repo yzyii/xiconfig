@@ -7,7 +7,9 @@ settings["font"]["font_family"] = "Segoe UI";
 settings["font"]["bold"] = true;
 settings["font"]["color"] = 4294967295;
 settings["font"]["visible"] = true;
-settings["font"]["position_y"] = 25;
 settings["font"]["position_x"] = -278;
+settings["font"]["draw_flags"] = 16;
+settings["font"]["position_y"] = 25;
+settings["font"]["color_outline"] = 4278190080;
 
 return settings;
