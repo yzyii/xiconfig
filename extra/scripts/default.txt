@@ -152,6 +152,7 @@
 /alias add /i //invisible
 /alias add /s //sneak
 /alias add /c //cure
+/alias add /cg //curaga
 /alias add /ft //firetthrenody
 /alias add /it //icethrenody
 /alias add /wit //windthrenody

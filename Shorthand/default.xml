@@ -30,6 +30,27 @@
         <name>c5</name>
     </spell>
 
+	<spell id="7"> <!--Curaga-->
+        <command>/cg1</command>
+        <name>cg1</name>
+	</spell>
+	<spell id="8"> <!--Curaga II-->
+        <command>/cg2</command>
+        <name>cg2</name>
+	</spell>
+	<spell id="9"> <!--Curaga III-->
+        <command>/cg3</command>
+        <name>cg3</name>
+	</spell>
+	<spell id="10"> <!--Curaga IV-->
+        <command>/cg4</command>
+        <name>cg4</name>
+	</spell>
+	<spell id="11"> <!--Curaga V-->
+        <command>/cg5</command>
+        <name>cg5</name>
+	</spell>
+
     <spell id="53"> <!--Blink-->
         <command>/b</command>
         <name>b</name>
