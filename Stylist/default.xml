@@ -3,7 +3,7 @@
     <settings>
         <noblinkself>false</noblinkself>
         <noblinktarget>true</noblinktarget>
-        <noblinkothers>false</noblinkothers>
+        <noblinkothers>true</noblinkothers>
     </settings>
 
 </stylist>

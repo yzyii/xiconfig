@@ -273,28 +273,76 @@
     </spell>
 
     <spell id="176"> <!--Firaga III-->
-        <command>/fg</command>
-        <name>fg</name>
+        <command>/fg3</command>
+        <name>fg3</name>
     </spell>
     <spell id="181"> <!--Blizzaga III-->
-        <command>/bg</command>
-        <name>bg</name>
+        <command>/bg3</command>
+        <name>bg3</name>
     </spell>
     <spell id="186"> <!--Aeroga III-->
-        <command>/ag</command>
-        <name>ag</name>
+        <command>/ag3</command>
+        <name>ag3</name>
     </spell>
     <spell id="191"> <!--Stonega III-->
-        <command>/sg</command>
-        <name>sg</name>
+        <command>/sg3</command>
+        <name>sg3</name>
     </spell>
     <spell id="196"> <!--Thundaga III-->
-        <command>/tg</command>
-        <name>tg</name>
+        <command>/tg3</command>
+        <name>tg3</name>
     </spell>
     <spell id="201"> <!--Waterga III-->
-        <command>/wg</command>
-        <name>wg</name>
+        <command>/wg3</command>
+        <name>wg3</name>
+    </spell>
+    <spell id="175"> <!--Firaga II-->
+        <command>/fg2</command>
+        <name>fg2</name>
+    </spell>
+    <spell id="180"> <!--Blizzaga II-->
+        <command>/bg2</command>
+        <name>bg2</name>
+    </spell>
+    <spell id="185"> <!--Aeroga II-->
+        <command>/ag2</command>
+        <name>ag2</name>
+    </spell>
+    <spell id="190"> <!--Stonega II-->
+        <command>/sg2</command>
+        <name>sg2</name>
+    </spell>
+    <spell id="195"> <!--Thundaga II-->
+        <command>/tg2</command>
+        <name>tg2</name>
+    </spell>
+    <spell id="200"> <!--Waterga II-->
+        <command>/wg2</command>
+        <name>wg2</name>
+    </spell>
+    <spell id="174"> <!--Firaga-->
+        <command>/fg1</command>
+        <name>fg1</name>
+    </spell>
+    <spell id="179"> <!--Blizzaga-->
+        <command>/bg1</command>
+        <name>bg1</name>
+    </spell>
+    <spell id="184"> <!--Aeroga-->
+        <command>/ag1</command>
+        <name>ag1</name>
+    </spell>
+    <spell id="189"> <!--Stonega-->
+        <command>/sg1</command>
+        <name>sg1</name>
+    </spell>
+    <spell id="194"> <!--Thundaga-->
+        <command>/tg1</command>
+        <name>tg1</name>
+    </spell>
+    <spell id="199"> <!--Waterga-->
+        <command>/wg1</command>
+        <name>wg1</name>
     </spell>
 
     <spell id="338"> <!--Utsusemi: Ichi-->
