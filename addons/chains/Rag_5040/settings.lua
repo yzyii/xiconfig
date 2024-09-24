@@ -2,12 +2,12 @@ require('common');
 
 local settings = T{ };
 settings["display"] = T{ };
-settings["position_x"] = 1042;
+settings["position_x"] = 1040;
 settings["font_scale"] = 1;
-settings["display"]["color"] = true;
+settings["display"]["weapon"] = true;
 settings["display"]["spell"] = true;
 settings["display"]["pet"] = true;
-settings["display"]["weapon"] = true;
-settings["position_y"] = 356;
+settings["display"]["color"] = true;
+settings["position_y"] = 381;
 
 return settings;
