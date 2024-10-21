@@ -193,25 +193,26 @@ ashita.events.register('load', 'loac_cb', function()
             return
         end
 
-        -- Get the index of your current target (if any)
+        -- Get the index of your current target or subtarget (if any)
         local targetIndex = target:GetTargetIndex(isSubTargetActive)
         local targetIndexSub = nil
         if (isSubTargetActive == 1) then
             targetIndexSub = target:GetTargetIndex(0)
         end
 
-        -- Get/load the cursor texture
+        -- Get/load the cursor textures
         cursorTex = cursorTex or loadCursorTex(filepathForCursor)
         cursorTexSub = cursorTexSub or loadCursorTex(filepathForCursorSub)
 
+        -- Get target cursor position
         local ndcZ = nil
         cursorPos.x, cursorPos.y, ndcZ = getPos(targetIndex)
 
-        -- Test if cursor is in the viewing volume
+        -- Test if target cursor is in the viewing volume
         if (ndcZ >= 0 and ndcZ <= 1) then
             local flags = target:GetSubTargetFlags()
 
-            -- Draw the cursor
+            -- Draw the target cursor
             if (flags == 512 and not targetIndexSub) then -- Hack to get items to display a blue target instead of a white one
                 sprite:Draw(cursorTexSub, cursorRect, cursorScale, nil, 0.0, cursorPos, white)
             else
@@ -220,18 +221,16 @@ ashita.events.register('load', 'loac_cb', function()
         end
 
         if (targetIndexSub) then
+		    -- Get subtarget cursor position
             local ndcZSub = nil
             cursorPosSub.x, cursorPosSub.y, ndcZSub = getPos(targetIndexSub)
 
-            -- Pad Subtarget
+            -- Pad subtarget
             cursorPosSub.y = cursorPosSub.y - 10
 
-            -- Test if cursor is in the viewing volume
+            -- Test if subtarget cursor is in the viewing volume
             if (ndcZSub >= 0 and ndcZSub <= 1) then
-                -- Get/load the cursor texture
-
-
-                -- Draw the cursor
+                -- Draw the subtarget cursor
                 sprite:Draw(cursorTexSub, cursorRect, cursorScale, nil, 0.0, cursorPosSub, white)
             end
 
