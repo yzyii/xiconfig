@@ -28,6 +28,7 @@
 /load Minimap
 /load PacketFlow
 /load Shorthand
+/load sequencer
 /load thirdparty
 # --HORIZON_PLUGINS_STOP--
 #
@@ -49,7 +50,6 @@
 /addon load luashitacast
 /addon load macrofix
 /addon load timestamp
-/addon load tparty
 /addon load HXUI
 /addon load MobDB
 /addon load NoLock
@@ -70,8 +70,14 @@
 /addon load ttimers
 /addon load attendance
 /addon load thotbar
+/addon load chatmon
+/addon load simplelog
+/addon load hideparty
+/addon load customtarget
+/addon load xitools
 /load sequencer
 /load nameplate
+/load findall
 
 #########################################################################
 #
@@ -162,3 +168,6 @@
 /alias add /lit //lightthrenody
 /alias add /dat //darkthrenody
 /alias add /po //poisona
+/drawdistance setworld 20
+/drawdistance setmob 20
+/hideparty
