@@ -213,7 +213,7 @@ ashita.events.register('load', 'loac_cb', function()
             local flags = target:GetSubTargetFlags()
 
             -- Draw the target cursor
-            if (flags == 512 or flags == 18 or flags == 525 and not targetIndexSub) then -- Hack to get items to display a blue target instead of a white one for items, stnpc, and stpc
+            if ((flags == 512 or flags == 18 or flags == 525) and not targetIndexSub) then -- Hack to get items to display a blue target instead of a white one for items, stnpc, and stpc
                 sprite:Draw(cursorTexSub, cursorRect, cursorScale, nil, 0.0, cursorPos, white)
             else
                 sprite:Draw(cursorTex, cursorRect, cursorScale, nil, 0.0, cursorPos, white)
