@@ -20,10 +20,10 @@ settings["Flags"]["Mob_Death"] = true;
 settings["Flags"]["Pet"] = true;
 settings["Flags"]["Paging"] = false;
 settings["Flags"]["Streaming"] = true;
-settings["Flags"]["WS"] = true;
+settings["Flags"]["Pet_TP"] = true;
 settings["Flags"]["Healing"] = true;
 settings["Flags"]["Pet_Heal"] = true;
-settings["Flags"]["Pet_TP"] = true;
+settings["Flags"]["WS"] = true;
 settings["Flags"]["Magic"] = true;
 settings["Flags"]["Deaths"] = false;
 
