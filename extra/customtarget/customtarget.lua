@@ -209,12 +209,10 @@ ashita.events.register('load', 'loac_cb', function()
 
         -- Test if cursor is in the viewing volume
         if (ndcZ >= 0 and ndcZ <= 1) then
-
-
             local flags = target:GetSubTargetFlags()
 
             -- Draw the cursor
-            if (flags == 512 and not targetIndexSub) then
+            if (flags == 512 and not targetIndexSub) then -- Hack to get items to display a blue target instead of a white one
                 sprite:Draw(cursorTexSub, cursorRect, cursorScale, nil, 0.0, cursorPos, white)
             else
                 sprite:Draw(cursorTex, cursorRect, cursorScale, nil, 0.0, cursorPos, white)
