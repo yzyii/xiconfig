@@ -22,8 +22,8 @@ settings["XP_Mini"] = false;
 settings["Zone_Time"] = false;
 settings["Boost_Default"] = false;
 settings["XP_Boost_Item"] = false;
-settings["Boost_Item_Name"] = "Unknown";
-settings["Boost_Item_Default_Index"] = 1;
 settings["XP_Job"] = true;
+settings["Boost_Item_Default_Index"] = 1;
+settings["Boost_Item_Name"] = "Unknown";
 
 return settings;

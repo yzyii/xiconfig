@@ -19,11 +19,11 @@ settings["ShowPalette"] = true;
 settings["Scale"] = 1;
 settings["TriggerDuration"] = 0.25;
 settings["HideWhileMap"] = true;
-settings["ShowEmpty"] = false;
-settings["ShowSkillchainAnimation"] = true;
 settings["ShowTrigger"] = true;
-settings["Layout"] = "10x1";
 settings["ShowRecast"] = true;
+settings["ShowSkillchainAnimation"] = true;
+settings["Layout"] = "10x1";
+settings["ShowEmpty"] = false;
 settings["HideWhileCutscene"] = true;
 
 return settings;

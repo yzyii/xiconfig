@@ -15,8 +15,10 @@ settings["font"]["font_height"] = 36;
 settings["font"]["font_flags"] = 1;
 settings["display_priority_only"] = false;
 settings["font_color_priority_alt"] = 4282319103;
-settings["fade_after"] = 4;
 settings["fade_duration"] = 1;
+settings["hide_radar"] = false;
+settings["fade_after"] = 4;
 settings["x_offset"] = 0;
+settings["hide_bg"] = false;
 
 return settings;
