@@ -4,9 +4,9 @@ local settings = {
     DetailScale=1.000000,
     Alpha=0.800000,
     DetailView=false,
-    MobFormat='$name [$id] $aggro$LB$physmagic',
-    PlayerFormat='$name$joblevel [$id]',
-    NPCFormat='$name[NPC] [$id]',
+    MobFormat='[$id] $aggro$LB$physmagic',
+    PlayerFormat='$joblevel [$id]',
+    NPCFormat='[NPC] [$id]',
     PetFormat='$name($owner) [$id]',
     NothingFormat='',
 };

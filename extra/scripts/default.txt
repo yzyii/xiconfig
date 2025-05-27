@@ -75,9 +75,10 @@
 /addon load hideparty
 /addon load customtarget
 /addon load xitools
-/load sequencer
+/addon load stfu
 /load nameplate
 /load findall
+/load petinfo
 
 #########################################################################
 #
@@ -158,7 +159,10 @@
 /alias add /i //invisible
 /alias add /s //sneak
 /alias add /c //cure
+/alias add /e //erase
+/alias add /b //blink
 /alias add /cg //curaga
+/alias add /po //poisona
 /alias add /ft //firetthrenody
 /alias add /it //icethrenody
 /alias add /wit //windthrenody
@@ -167,7 +171,6 @@
 /alias add /wat //waterthrenody
 /alias add /lit //lightthrenody
 /alias add /dat //darkthrenody
-/alias add /po //poisona
 /drawdistance setworld 20
 /drawdistance setmob 20
 /hideparty

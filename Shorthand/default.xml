@@ -51,10 +51,6 @@
         <name>cg5</name>
 	</spell>
 
-    <spell id="53"> <!--Blink-->
-        <command>/b</command>
-        <name>b</name>
-    </spell>
     <spell id="54"> <!--Stoneskin-->
         <command>/ss</command>
         <name>ss</name>
@@ -87,10 +83,6 @@
     <spell id="20"> <!--Cursna-->
         <command>/cu</command>
         <name>cu</name>
-    </spell>
-    <spell id="143"> <!--Erase-->
-        <command>/e</command>
-        <name>e</name>
     </spell>
 
     <spell id="43"> <!--Protect-->
@@ -361,5 +353,9 @@
     <spell id="354"> <!--Tonko: Ni-->
         <command>/to</command>
         <name>to</name>
+    </spell>
+    <spell id="318"> <!--Monomi: Ichi-->
+        <command>/mo</command>
+        <name>mo</name>
     </spell>
 </shorthand>
